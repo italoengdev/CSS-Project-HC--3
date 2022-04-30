@@ -28,5 +28,5 @@ https://css-project-hc-3.vercel.app/
 ## Aprendizados
 
 O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
-Este projeto serviu de revisão para as tags HTML e de algumas features de CSS que vão sendo esquecidas se não forem pratricadas constantemente.
+Este projeto serviu de revisão para as tags HTML e de algumas features de CSS que vão sendo esquecidas se não forem praticadas constantemente.
 
