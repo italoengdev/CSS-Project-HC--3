@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a718f794f3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dev. Italo Saraiva Gonçalves</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          src="https://cdn.dribbble.com/users/1863788/screenshots/15194085/media/707f30ca14189b85ecb9ed08866c0ba7.gif"
+          width="150px"
+          alt="foto de código"
+        />
+      </div>
+      <ul>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/italoengdev/"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/italoengdev"><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=5586999843969&text=Ol%C3%A1%20Italo!"
+            ><i class="fa-brands fa-whatsapp"></i></a
+          >
+        </li>
+        <li>
+          <a target="_blank" href="mailto:italo_saraiva182@hotmail.com"
+            ><i class="fa-solid fa-envelope"></i></a
+          >
+        </li>
+      </ul>
+    </header>
+    <main class="bg">
+      <section class="container">
+        <div class="name">
+          <h1>Italo Saraiva Gonçalves</h1>
+          <h5>Front-end Developer</h5>
+        </div>
+
+        <div onclick="displayAbout()" id="arrow">
+          <i id="animation" class="fa-solid fa-arrow-down"></i>
+        </div>
+        <div style="display: none" id="about">
+          <p>
+            Engenheiro Civil, Pós-Graduando em Instalações Prediais,Funcionário Público Estadual e entusiasta de programação. Agora, estou em transição de carreira e correndo atrás do objetivo de me tornar um <strong style="font-style: italic;">Desenvolvedor Front-End</strong>. Graduando em Análise e Desenvolvimento de Sistemas. Meu lema é um passo de cada vez! 
+            <p>Abaixo um pouco dos projetos os quais já desenvolvi!</p> 
+          </p>
+          <div class="flex">
+            <div>
+              <img src="/chrome-capture-2022-3-29.gif" alt="foto de projeto" style="border-radius: 10px;" />
+              <p><text>Neste projeto, são usados diversos conceitos de Javascript que incluem:</text>
+                  <ul>Estudo de variaveis e operações,</ul>
+                  <ul>Arrays, Loops e Estilos,</ul>
+                  <ul> Eventos, formulários e a manipulação de elementos,</ul>
+                  <ul> Boas práticas de JS,</ul>
+                  <ul>Validação de formulários,</ul>
+                  <ul>Remoção, delegação e animações no DOM,</ul>
+                  <ul>Filtragem de tabelas e</ul>
+                  <ul>Uso de requisições AJAX</ul>
+           
+            <div class="link"><a target="_blank" href="https://italoengdev.github.io/Training_JS_alura_form-main/login.html"
+              >Aparecida Nutricionista</a></div>
+                  </p>
+                
+              
+            </div>
+            <div>
+              <img src="/chrome-capture-2022-3-29 (1).gif" alt="foto de projeto" style="border-radius: 10px;" />
+              <p><text>Neste projeto, são usados diversos conceitos de HTML e CSS que incluem:</text>
+                <ul>Tags HTML</ul>
+                <ul>CSS usando features como "hover"</ul>
+                <ul>CSS Grid</ul>
+                
+               
+               
+                
+                <div class="link"><a target="_blank" href="https://italoengdev.github.io/Frontend-Mentor-Test-CSS-HTML/"
+                  >Order Summary Component HTML CSS</a></div>
+                      </p>
+                
+  
+            </div>
+            <div>
+              <img src="/chrome-capture-2022-3-29 (2).gif" alt="foto de projeto" style="border-radius: 10px;" />
+              <p><text>Neste projeto, são usados diversos conceitos de CSS e Sass que incluem:</text>
+                <ul>Variáveis no CSS</ul>
+                <ul>Funções e lógica na estilização</ul>
+                <ul>Site responsivo de maneira simples e reutilizável</ul>
+              
+           
+                <div class="link"><a target="_blank" href="https://italoengdev.github.io/projeto-sass-gatitopetshop-alura/"
+                  >Gatito Petshop</a></div>
+                      </p>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <div>
+            <p>Deixe Seu Contato!</p>
+          </div>
+          <form action="">
+            <input type="text" placeholder="seu melhor email :)" />
+            <button>Enviar!</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      function displayAbout() {
+        var arrow = document.getElementById('animation')
+        arrow.classList.toggle('rotate')
+        var display = document.getElementById('about')
+        display.classList.toggle('active')
+      }
+    </script>
+  </body>
+</html>
