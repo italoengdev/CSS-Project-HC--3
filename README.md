@@ -7,14 +7,12 @@ Projeto desenvolvido durante o curso da #GamaAcademy na jornada da Hiring Coders
 ## Deploy
 
 https://css-project-hc-3.vercel.app/
-```
 
 
 ## Autores
 
-- [@kpmnta](https://www.github.com/kpmnta)
-- [@italoengdev](https://www.github.com/italoengdev)
-
+[@kpmnta](https://www.github.com/kpmnta),
+[@italoengdev](https://github.com/italoengdev)
 
 
 ## Funcionalidades
